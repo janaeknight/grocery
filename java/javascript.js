@@ -26,7 +26,7 @@ function generalFunction() {
         d_steak: 42,
         d_suspicious_stew: 329,
         d_sweet_berries: 16
-    }
+    };
     groceries.apple = document.getElementById("appleInput").value;
     groceries.baked_potato = document.getElementById("baked_potatoInput").value;
     groceries.bread = document.getElementById("breadInput").value;
