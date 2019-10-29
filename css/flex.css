@@ -1,8 +1,12 @@
+html { background-color: skyblue; }
 body {
-    cursor: url(http://cur.cursors-4u.net/others/oth-9/oth831.cur), auto !important;
+    display: flex; flex-direction: column;
+    width: 99vw; margin: 0 auto;
+    cursor: url(http://ani.cursors-4u.net/games/gam-16/gam1537.cur), auto !important;
 }
 body a button input form {
-    cursor: url(http://cur.cursors-4u.net/others/oth-9/oth831.cur), pointer !important;
+    cursor: url(http://ani.cursors-4u.net/games/gam-16/gam1535.cur), pointer text wait !important;
+
 }
 
 /*~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-*/
