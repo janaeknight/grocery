@@ -13,6 +13,20 @@ function generalFunction() {
         suspicious_stew: 0,
         sweet_berries: 0
     };
+    var pricesDirt = {
+        d_apple: 5,
+        d_baked_potato: 12,
+        d_bread: 3,
+        d_cake: 78,
+        d_carrot: 16,
+        d_honey_bottle: 66,
+        d_melon_slice: 13,
+        d_poisonous_potato: 95,
+        d_raw_beef: 29,
+        d_steak: 42,
+        d_suspicious_stew: 329,
+        d_sweet_berries: 16
+    }
     groceries.apple = document.getElementById("appleInput").value;
     groceries.baked_potato = document.getElementById("baked_potatoInput").value;
     groceries.bread = document.getElementById("breadInput").value;
