@@ -1,12 +1,21 @@
 .window {
     display: flex; flex-direction: column;
-    width: 725px; height: 400px; margin: 35px auto;
-    background-color: snow; padding: 15px;
+    width: 89vw; height: 400px; margin: 5px auto;
+    padding: 15px;
 }
 .item {
     display: flex; flex-direction: column;
     width: 25%; text-align: center;
+    padding: 5px 10px; margin-bottom: 45px;
 }
+
+/*input, #appleInput{
+    width: 90px; height: 60px;
+    padding: 0px; margin-top: 5px; margin-left: auto; margin-right: auto;
+    background-color: skyblue; font-size: 18px; border: none; 
+    border-bottom: 12px black #000;
+    z-index: 1; text-align: right;
+  }*/
 
 
 
@@ -36,20 +45,17 @@
 
 
 /* i stole this from w3schools lol xd RAWR */
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-  }
+
+.tooltip { position: relative; display: inline-block; }
   
   /* Tooltip text */
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
+    width: 145px; bottom: 100%; left: 50%; margin-left: -60px;
     background-color: black;
     color: #fff;
     text-align: center;
-    padding: 5px 0;
+    padding: 5px 3px;
     border-radius: 6px;
    
     /* Position the tooltip text - see examples below! */
