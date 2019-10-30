@@ -2,7 +2,7 @@ html { background-color: skyblue; }
 body {
     display: flex; flex-direction: column;
     width: 99vw; margin-left: auto; margin-right: 30px;
-    cursor: url(http://ani.cursors-4u.net/games/gam-16/gam1537.cur), auto !important;
+    cursor: url(http://ani.cursors-4u.net/games/gam-16/gam1537.cur), auto !important; font-family: monospace;
 }
 
 /* TENTHS */
