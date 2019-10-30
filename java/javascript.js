@@ -40,13 +40,23 @@ function generalFunction() {
     groceries.suspicious_stew = document.getElementById("suspicious_stewInput").value;
     groceries.sweet_berries = document.getElementById("sweet_berriesInput").value;
 
-    var checkBox = document.getElementById("myCheck");
-    if (checkBox.checked == true){
-        text.style.display = "block";
-      } else {
-        text.style.display = "none";
-      }
+    //var checkBox = document.getElementById("myCheck");
+    //if (checkBox.checked == true){
+    //    text.style.display = "block";
+    //  } else {
+    //    text.style.display = "none";
+    //  }
 
+    if (groceries.apple<=0) {
+        console.log("There aren't any apples.");
+    } else {
+        var applePriceDirt = groceries.apple * pricesDirt.d_apple;
+        console.log("There are " +groceries.apple, "apples, which costs " +applePriceDirt, "dirt blocks.")
+    }
+
+    var totalPriceDirt = applePriceDirt;
+    console.log("All together, the items in the cart will set you back " +applePriceDirt, "dirt blocks.")
+    document.getElementById("appleReceipt").style.display='block';
     return;
 };
 

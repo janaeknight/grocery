@@ -20,7 +20,12 @@ input {
     margin-left: auto; margin-right: auto;
     background-color: skyblue; font-size: 54px;
     z-index: 1; text-align: right;
-} 
+}
+
+#receipt { display: flex; flex-direction: row; font-size: 22px; }
+.line img { width: 45px; height: 45px; padding-right: 10px; }
+.line p { margin-top: 14px; }
+.line { display: flex; flex-direction: row;}
 
 
 
