@@ -40,6 +40,13 @@ function generalFunction() {
     groceries.suspicious_stew = document.getElementById("suspicious_stewInput").value;
     groceries.sweet_berries = document.getElementById("sweet_berriesInput").value;
 
-    console.log(groceries.apple); console.log(groceries.bread);
+    var checkBox = document.getElementById("myCheck");
+    if (checkBox.checked == true){
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+
+    return;
 };
 

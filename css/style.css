@@ -1,7 +1,12 @@
+input:hover {
+    cursor: url(http://ani.cursors-4u.net/games/gam-16/gam1535.cur), auto !important;
+}
+
+/*~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-*/
 .window {
     display: flex; flex-direction: column;
-    width: 89vw; height: 400px; margin: 5px auto;
-    padding: 15px;
+    width: 89vw; height: auto; margin: 5px auto;
+    padding: 15px; border-bottom: 3px dashed black;
 }
 .item {
     display: flex; flex-direction: column;
@@ -9,15 +14,13 @@
     padding: 5px 10px; margin-bottom: 45px;
 }
 
-input, #appleInput{
+input, #appleInput {
     width: 75px; height: 54px;
     padding: 0px; margin-top: 5px; 
     margin-left: auto; margin-right: auto;
     background-color: skyblue; font-size: 54px;
-    border-bottom: 12px black #000;
     z-index: 1; text-align: right;
-  }
-
+}
 
 
 
