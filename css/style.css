@@ -22,10 +22,18 @@ input {
     z-index: 1; text-align: right;
 }
 
-#receipt { display: flex; flex-direction: row; font-size: 22px; }
+#receipt { 
+    display: flex; flex-direction: row; 
+    margin: 30px 55px; font-size: 22px; }
 .line img { width: 45px; height: 45px; padding-right: 10px; }
 .line p { margin-top: 14px; }
-.line { display: flex; flex-direction: row;}
+.line { display: flex; flex-direction: row; }
+/*.receiptRight {
+    background-image: url("https://gamepedia.cursecdn.com/minecraft_gamepedia/thumb/b/b2/Paper.png/150px-Paper.png?version=11a4eebc6e956e3f99f1d3221b0eebf0");
+    background-repeat: no-repeat; background-position: center;
+    background-size: cover; min-height: 160px;
+}*/
+.rp img { width: 75%; }
 
 
 

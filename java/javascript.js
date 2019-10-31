@@ -49,14 +49,25 @@ function generalFunction() {
 
     if (groceries.apple<=0) {
         console.log("There aren't any apples.");
+        document.getElementById("appleLine").style.display='none';
     } else {
         var applePriceDirt = groceries.apple * pricesDirt.d_apple;
-        console.log("There are " +groceries.apple, "apples, which costs " +applePriceDirt, "dirt blocks.")
+        console.log("There are " +groceries.apple, "apples, which costs " +applePriceDirt, "dirt blocks.");
+        document.getElementById("appleBold").innerHTML= ""+groceries.apple+ "";
     }
+    if (groceries.potato<=0) {
+        console.log("There aren't any potatoes.");
+        document.getElementById("baked_potatoLine").style.display='none';
+    } else {
+        var baked_potatoPriceDirt = groceries.baked_potato * pricesDirt.d_baked_potato;
+        console.log("There are " +groceries.baked_potato, "potatoes, which costs " +baked_potatoPriceDirt, "dirt blocks.");
+        document.getElementById("baked_potatoBold").innerHTML= ""+groceries.apple+ "";
+    }
+
 
     var totalPriceDirt = applePriceDirt;
     console.log("All together, the items in the cart will set you back " +applePriceDirt, "dirt blocks.")
-    document.getElementById("appleReceipt").style.display='block';
+
     return;
 };
 
