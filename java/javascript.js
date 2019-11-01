@@ -45,7 +45,7 @@ function generalFunction() {
     //    text.style.display = "block";
     //  } else {
     //    text.style.display = "none";
-    //  }
+    //  };
 
     if (groceries.apple<=0) {
         console.log("There aren't any apples.");
