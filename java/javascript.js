@@ -62,7 +62,7 @@ function generalFunction() {
         var baked_potatoPriceDirt = groceries.baked_potato * pricesDirt.d_baked_potato;
         console.log("There are " +groceries.baked_potato, "potatoes, which costs " +baked_potatoPriceDirt, "dirt blocks.");
         document.getElementById("baked_potatoBold").innerHTML= ""+groceries.apple+ "";
-    }
+    };
 
 
     var totalPriceDirt = applePriceDirt;
